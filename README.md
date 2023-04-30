@@ -14,4 +14,4 @@ flutter build apk
 
 Go to the location:
 **build/app/outputs/flutter-apk/**
-Copy the **app-release.apk** file into your android device and install it.
+Copy the **app-release.apk** file</br>into your android device and install it.
