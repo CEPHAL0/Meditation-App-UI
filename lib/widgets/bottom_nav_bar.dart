@@ -8,6 +8,8 @@ class BottomNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Store the index
+    int activeIndex = 0;
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       height: 70,
@@ -19,16 +21,19 @@ class BottomNavBar extends StatelessWidget {
               press: () {},
               svgSrc: 'assets/icons/calendar.svg',
               title: 'Today',
+              isActive: activeIndex == 0,
             ),
             BottomNavItem(
               press: () {},
               svgSrc: 'assets/icons/gym.svg',
               title: 'All Exercises',
+              isActive: activeIndex == 1,
             ),
             BottomNavItem(
               press: () {},
               svgSrc: 'assets/icons/Settings.svg',
               title: 'Settings',
+              isActive: activeIndex == 2,
             ),
           ]),
     );
