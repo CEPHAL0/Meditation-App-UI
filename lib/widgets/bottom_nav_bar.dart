@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 import 'bottom_nav_item.dart';
 
-class BottomNavBar extends StatelessWidget {
+class BottomNavBar extends StatefulWidget {
   const BottomNavBar({
     super.key,
   });
 
+  @override
+  State<BottomNavBar> createState() => _BottomNavBarState();
+}
+
+class _BottomNavBarState extends State<BottomNavBar> {
+  int _selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
     // Store the index
@@ -18,22 +24,34 @@ class BottomNavBar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             BottomNavItem(
-              press: () {},
+              press: () {
+                setState(() {
+                  _selectedIndex = 0;
+                });
+              },
               svgSrc: 'assets/icons/calendar.svg',
               title: 'Today',
-              isActive: activeIndex == 0,
+              isActive: _selectedIndex == 0,
             ),
             BottomNavItem(
-              press: () {},
+              press: () {
+                setState(() {
+                  _selectedIndex = 1;
+                });
+              },
               svgSrc: 'assets/icons/gym.svg',
               title: 'All Exercises',
-              isActive: activeIndex == 1,
+              isActive: _selectedIndex == 1,
             ),
             BottomNavItem(
-              press: () {},
+              press: () {
+                setState(() {
+                  _selectedIndex = 2;
+                });
+              },
               svgSrc: 'assets/icons/Settings.svg',
               title: 'Settings',
-              isActive: activeIndex == 2,
+              isActive: _selectedIndex == 2,
             ),
           ]),
     );
