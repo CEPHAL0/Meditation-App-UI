@@ -19,8 +19,7 @@ class YogaScreen extends StatelessWidget {
             decoration: BoxDecoration(
                 color: Colors.black,
                 image: DecorationImage(
-                  image: NetworkImage(
-                      "https://cdn.pixabay.com/photo/2020/08/22/12/36/yoga-5508336_1280.png"),
+                  image: AssetImage('assets/images/yoga.jpg'),
                   fit: BoxFit.cover,
                   opacity: 60,
                 )),

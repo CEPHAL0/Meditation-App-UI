@@ -72,8 +72,8 @@ class DietScreen extends StatelessWidget {
                             child: Column(
                               children: [
                                 CircleAvatar(
-                                  backgroundImage: NetworkImage(
-                                      "https://www.allrecipes.com/thmb/5JVfA7MxfTUPfRerQMdF-nGKsLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg"),
+                                  backgroundImage:
+                                      AssetImage('assets/images/burger.jpg'),
                                   radius: 50,
                                 ),
                                 SizedBox(
@@ -101,8 +101,8 @@ class DietScreen extends StatelessWidget {
                             child: Column(
                               children: [
                                 CircleAvatar(
-                                  backgroundImage: NetworkImage(
-                                      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/800px-Pizza-3007395.jpg"),
+                                  backgroundImage:
+                                      AssetImage('assets/images/pizza.jpg'),
                                   radius: 50,
                                 ),
                                 SizedBox(
@@ -134,8 +134,8 @@ class DietScreen extends StatelessWidget {
                             child: Column(
                               children: [
                                 CircleAvatar(
-                                  backgroundImage: NetworkImage(
-                                      "https://assets.bonappetit.com/photos/5c803ed5eda4a341526b6077/1:1/w_2560%2Cc_limit/risotto-5.jpg"),
+                                  backgroundImage:
+                                      AssetImage('assets/images/risotto.jpg'),
                                   radius: 50,
                                 ),
                                 SizedBox(
@@ -163,8 +163,8 @@ class DietScreen extends StatelessWidget {
                             child: Column(
                               children: [
                                 CircleAvatar(
-                                  backgroundImage: NetworkImage(
-                                      "https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Spinach-Tomato-Pasta-bowl-500x500.jpg"),
+                                  backgroundImage:
+                                      AssetImage('assets/images/pasta.jpeg'),
                                   radius: 50,
                                 ),
                                 SizedBox(

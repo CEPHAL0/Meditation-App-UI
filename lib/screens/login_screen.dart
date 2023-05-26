@@ -44,8 +44,8 @@ class _FormValidationState extends State<FormValidation> {
                       SizedBox(height: 80),
                       CircleAvatar(
                         radius: 70,
-                        backgroundImage: NetworkImage(
-                            "https://thumbs.dreamstime.com/b/young-african-american-woman-meditating-sitting-lotus-natural-background-girl-nature-concept-illustration-yoga-179149883.jpg"),
+                        backgroundImage:
+                            AssetImage('assets/images/login_cover.jpg'),
                       ),
                       SizedBox(
                         height: 20,

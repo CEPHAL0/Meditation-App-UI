@@ -19,8 +19,7 @@ class ExercisesScreen extends StatelessWidget {
             decoration: BoxDecoration(
                 color: Colors.white,
                 image: DecorationImage(
-                  image: NetworkImage(
-                      "https://i.pinimg.com/originals/2c/44/17/2c4417fe3cb02cba1100ca9be330d044.png"),
+                  image: AssetImage('assets/images/gym_cover.png'),
                   fit: BoxFit.cover,
                   opacity: 90,
                 )),
