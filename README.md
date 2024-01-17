@@ -2,9 +2,9 @@
 This is a flutter app demonstrating the UI for a meditation app
 
 # Scripts
-`shell
+```shell
 flutter pub get
-`
+```
 
 ## Building and Installing on your device
 Run the following command:
