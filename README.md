@@ -8,9 +8,9 @@ flutter pub get
 
 ## Building and Installing on your device
 Run the following command:
-`shell
+```shell
 flutter build apk
-`
+```
 
 Go to the location:
 **build/app/outputs/flutter-apk/**
